@@ -34,7 +34,7 @@ class cliente
     vector <Cuenta> cuentas;
     vector <TarjetaDebito> tarjetasDebito;
 
-cliente (const char cod, const char ced, const char nom, const char dir, const char mail, const char tel);
+cliente (const char* cod, const char* ced, const char* nom, const char* dir, const char* mail, const char* tel);
 {
     strncpy(this -> codigo, cod, sizeof(this ->codigo) -1 );
     strncpy(this -> cedula, ced, sizeof(this ->cedula) -1 );

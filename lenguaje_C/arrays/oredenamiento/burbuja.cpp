@@ -79,30 +79,18 @@ void determinaMejorVersion(int compV1, int compV2, int compV3){
     }
 }
 main(){
-    int ne;
-    cout << "Numero de elementos: ";
-    cin >> ne;
 
-    int vecOriginal [ne], vec [ne];
-    llenaVector(vecOriginal, ne);
-
-    cout << "Vector original: ";
-    muestraVector(vecOriginal, vec, ne);
-
-    copiaVector(vecOriginal, vec, ne);
-    int comparacionesV1 = ordenaBurbujav1 (vec, ne);
-    cout<< "Comparaciones burbuja v1" << comparacionesV1 << endl;
-
-    copiaVector(vecOriginal, vec, ne);
-    int comparacionesV2 = ordenaBurbujav2 (vec, ne);
-    cout<< "Comparaciones burbuja v2" << comparacionesV2 << endl;
-
-    copiaVector(vecOriginal, vec, ne);
-    int comparacionesV3 = ordenaBurbujav3 (vec, ne);
-    cout<< "Comparaciones burbuja v3" << comparacionesV3 << endl;    
-    
-    determinaMejorVersion(comparacionesV1, comparacionesV2, comparacionesV3);
-
-    return 0;
-    
+int ne;
+cout << "Numero de elementos: ";
+cin >> ne;
+int vec[ne];
+llenaVector(vec, ne);
+cout << "Vector original: ";
+muestraVector(vec, ne);
+cout << endl;
+cout  << "El numero de coparaciones burbuja v1 = " << ordenaBurbujav1(vec, ne) << endl;
+cout  << "El numero de coparaciones burbuja v2 = " << ordenaBurbujav2(vec, ne) << endl;
+cout  << "El numero de coparaciones burbuja v3 = " << ordenaBurbujav3(vec, ne) << endl;
+cout << "\nVector ordenado: " << endl;
+muestraVector(vec, ne);
 }
