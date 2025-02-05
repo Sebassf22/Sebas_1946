@@ -37,7 +37,7 @@ bool isBusquedaBinaria(int v[], int n, int elemento){
         Icentro = (Iarriba + Iabajo) / 2;
         
         if (v[Icentro] == elemento) {
-            return true; // Se encontró el elemento
+            return true; 
         }
         else if (v[Icentro] < elemento) {
             Iarriba = Icentro + 1;
