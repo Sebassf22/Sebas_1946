@@ -21,7 +21,7 @@ main()
     string nombres,apodo;
     string curso[5] = {"c++"."Java","Python","C#","PHP"};
     char apellido[20], apodo1[20];
-    cout<< "Ingrese sus nombre: ";
+    cout<< "Ingrese sus nombres: ";
     getline(cin, nombres);
     cout << "Su nombre es: "<<nombres <<endl;
     cambiarString(nombres);
