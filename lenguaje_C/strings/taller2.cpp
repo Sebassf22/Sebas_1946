@@ -19,8 +19,16 @@ main()
     cout<<"auxiliar array char: "<< auxiliar <<endl;
     (cadena4.empty())?cout<< "Cadena Vacia\n":cout<<"Cadena no vacia\n";
     //Tamaño maximo de caracteres que puede almacenar la cadena
-    cout<< "Tamano maximo; " <<cadena1.max_sice()<<endl;
+    cout<< "Tamano maximo; " <<cadena1.max_size()<<endl;
     //Tamaño en bytes del objeto string que ocupa actualmente
     cout << "Capacidad: " <<cadena1.capacity()<<endl;
-
+    //usamdo el  metodo compare para comparar 2 cadenas
+    cout << "cad1= " << cadena1 << " cad2= " << cadena2<<endl;
+    cadena1 = "mola";
+    cadena2 = "txyz";
+    int comparacion = cadena1.compare(cadena2);
+    cout << "comparacion: " << comparacion << endl;
+    int encontrado = cadena1.find("cos");
+    cout<<"econtrado = "<<encontrado<<endl;
+    (cadena1.find("cos")== string::npos)?cout<<"No encontrado":cout<<"encontrado";
 }

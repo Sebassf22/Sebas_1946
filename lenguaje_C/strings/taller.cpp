@@ -41,7 +41,8 @@ int main(){
     cout << subcad << endl;
 
     //Reemplazar para la cadena
-    cadena.replace(6, 5, "ación");
+    cout << cadena << endl;
+    cadena.replace(6, 7, "laton");
     cout << cadena << endl;
     return 0;
 }
