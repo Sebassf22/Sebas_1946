@@ -1,0 +1,1 @@
+ "d:\Pr ticas_1949\lenguaje_C\archivos\" ; if ($?) { g++ read_write.cpp -o read_write } ; if ($?) { .\read_write }
