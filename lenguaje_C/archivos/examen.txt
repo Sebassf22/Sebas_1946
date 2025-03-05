@@ -1,0 +1,20 @@
+Cantidades totales de cada artículo:
+Artículo 1: 150
+Artículo 2: 120
+Artículo 3: 180
+Artículo 4: 200
+Artículo 5: 170
+Artículo 6: 140
+
+Cantidad de artículos vendidos en la sucursal Sur: 1100
+Cantidad del artículo 'Teclado' en la sucursal Norte: 50
+
+Recaudación total de cada sucursal:
+Sucursal 1: 1200.50
+Sucursal 2: 1100.75
+Sucursal 3: 1500.40
+Sucursal 4: 1300.30
+
+Recaudación total de la empresa: 6102.95
+
+Sucursal con mayor recaudación: Sucursal 3
